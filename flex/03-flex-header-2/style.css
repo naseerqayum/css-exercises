@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content:space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -31,8 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  gap: 8px;
-}
+  }
 
 button {
   border: none;
@@ -52,21 +52,21 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  
-  
-}
+  gap: 16px;
+   }
 
 .left-side {
   display: flex;
   justify-content: left;
   align-items: center;
-  
-}
+  gap: 16px;
+  }
 
 .right-side {
   display: flex;
   justify-content: right;
   align-items: center;
-
+  gap: 16px;
 }
+/* the solution did this differently, coding for .left- and .right-side the same and not using justify-content:left and right */
 
