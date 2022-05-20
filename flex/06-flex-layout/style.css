@@ -8,8 +8,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
 }
 
 img {
@@ -53,8 +51,6 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  
-  
 }
 
 .footer {
@@ -70,5 +66,16 @@ a {
 }
 
 .content {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  margin: 8px;
+}
+
+input {
+  margin: 8px;
 }
