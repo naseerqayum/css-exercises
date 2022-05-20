@@ -28,8 +28,34 @@ input {
 
 ul  {
   list-style-type: none;
+  display: flex;
 }
 
+li{
+  padding: 4px;
+}
 a {
   text-decoration: none;
+  color: dimgray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  font-size: small;
+  
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  font-size: small;
+  background-color: #eeeeee;
+}
+
+.content {
+  
 }
